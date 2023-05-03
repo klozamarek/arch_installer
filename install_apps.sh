@@ -76,10 +76,9 @@ done
 
 echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
 
-# Don't forget to replace "Phantas0s" by the username of your Github account
-curl https://raw.githubusercontent.com/Phantas0s\
+# Don't forget to replace "klozamarek" by the username of your Github account
+curl https://raw.githubusercontent.com/klozamarek\
 /arch_installer/master/install_user.sh > /tmp/install_user.sh;
 
 # Switch user and run the final script
 sudo -u "$name" sh /tmp/install_user.sh
-
