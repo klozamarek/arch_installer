@@ -33,7 +33,7 @@ echo "LANG=en_US.UTF-8" > /etc/locale.conf
 
 # Set the keymap layout if you don't use an EN_US keyboard. 
 loadkeys pl2
-echo "KEYMAP=pl2 >> /etc/vconsole.conf
+echo "KEYMAP=pl2" >> /etc/vconsole.conf
 
 # No argument: ask for a username.
 # One argument: use the username passed as argument.
