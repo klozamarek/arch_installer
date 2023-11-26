@@ -16,17 +16,23 @@ dialog --title "Welcome!" \
 apps=("essential" "Essentials" on
       "network" "Network" on
       "tools" "Nice tools to have (highly recommended)" on
+      "compression" "Compression" on
+      "password" "Passwords management with pass" on
       "tmux" "Tmux" on
       "notifier" "Notification tools" on
+      "file_mngr" "File management" on
       "git" "Git & git tools" on
       "i3" "i3 wm" on
       "zsh" "The Z-Shell (zsh)" on
       "neovim" "Neovim" on
       "urxvt" "URxvt" on
-      "firefox" "Firefox (browser)" off
+      "web" "Browsers and mail" off
       "js" "JavaScript tooling" off
-      "qutebrowser" "Qutebrowser (browser)" off
-      "lynx" "Lynx (browser)" off)
+      "python" "Python installers support" off
+      "php" "PHP Scripting language" off
+      "multimedia" "Multimedia tools" off
+      "utilities" "Utilities" off
+      "office" "Office apps" off)
 
 dialog --checklist \
 "You can now choose what group of application you want to install. \n\n\
